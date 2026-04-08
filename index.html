@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baby Shower de Neriel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="invitation-card">
+      <header class="hero">
+        <span class="cloud cloud-1">☁️</span>
+        <span class="cloud cloud-2">☁️</span>
+        <span class="cloud cloud-3">☁️</span>
+
+        <div class="hero-icon">🧸</div>
+        <p class="subtitle">Te invitamos al</p>
+        <h1>Baby Shower</h1>
+        <p class="subtitle">de nuestro pequeño</p>
+        <h2>Neriel 💙</h2>
+      </header>
+
+      <section class="content">
+        <div class="message-box">
+          <p>
+            Con mucha alegría queremos compartir contigo un momento muy especial:
+            la próxima llegada de <strong>Neriel</strong>. Nos encantará contar con tu
+            presencia para celebrar este día tan bonito, lleno de amor, alegría e ilusión.
+          </p>
+        </div>
+
+        <section class="countdown-section">
+          <h3>Faltan⏳</h3>
+          <div class="countdown" id="countdown">
+            <div class="countdown-box">
+              <span id="days">0</span>
+              <p>Días</p>
+            </div>
+            <div class="countdown-box">
+              <span id="hours">0</span>
+              <p>Horas</p>
+            </div>
+            <div class="countdown-box">
+              <span id="minutes">0</span>
+              <p>Minutos</p>
+            </div>
+            <div class="countdown-box">
+              <span id="seconds">0</span>
+              <p>Segundos</p>
+            </div>
+          </div>
+          <p class="countdown-finished" id="countdownFinished"></p>
+        </section>
+
+        <div class="details">
+          <article class="detail-card">
+            <h3>📅 Fecha</h3>
+            <p>2 de mayo</p>
+          </article>
+
+          <article class="detail-card">
+            <h3>⏰ Hora</h3>
+            <p>2:30 PM</p>
+          </article>
+
+          <article class="detail-card">
+            <h3>👶 Baby Shower</h3>
+            <p>Neriel</p>
+          </article>
+
+          <article class="detail-card">
+            <h3>📍 Lugar</h3>
+            <p>
+              <a
+                id="locationLink"
+                class="location-link"
+                href="https://maps.app.goo.gl/hMYvyRLv5EPDxKMA9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                54930, Centro Soc. 1-a, Gustavo Baz Prada, San Pablo de las Salinas, Méx.
+              </a>
+            </p>
+          </article>
+        </div>
+
+        <section class="gallery-section">
+          <h3>Momentos especiales ✨</h3>
+          <div class="gallery">
+            <img src="foto1.jpeg" alt="Foto especial 1" />
+            <img src="foto2.jpeg" alt="Foto especial 2" />
+            <img src="foto3.jpeg" alt="Foto especial 3" />
+          </div>
+        </section>
+      </section>
+
+      <footer class="footer">
+        <p>Será un gusto compartir este hermoso momento contigo 💙</p>
+
+        <div class="buttons">
+          <button class="btn btn-secondary" id="specialMessageBtn">
+            ver
+          </button>
+
+          <a
+            class="btn btn-whatsapp"
+            id="whatsappBtn"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Confirmar asistencia
+          </a>
+        </div>
+
+        <p class="special-message" id="specialMessage">
+          Gracias por ser parte de esta etapa tan importante.
+          ¡Te esperamos para celebrar la llegada de Neriel! 🍼✨
+        </p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
