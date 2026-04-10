@@ -28,7 +28,7 @@ const countdownFinished = document.getElementById("countdownFinished");
 const countdownContainer = document.getElementById("countdown");
 
 // ⚠️ IMPORTANTE: año correcto
-const eventDate = new Date(2026, 4, 2, 13, 0, 0); // 2 mayo 2025 2:30pm
+const eventDate = new Date(2026, 5, 2, 13, 0, 0); // 
 
 function updateCountdown() {
   const now = new Date();
