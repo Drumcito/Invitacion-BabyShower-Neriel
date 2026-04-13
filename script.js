@@ -3,7 +3,7 @@ const specialMessage = document.getElementById("specialMessage");
 const whatsappBtn = document.getElementById("whatsappBtn");
 
 
-const phoneNumber = "525612733383";
+const phoneNumber = "525530198370";
 
 const whatsappMessage =
   "Hola, confirmo mi asistencia al Baby Shower de Neriel.  💙";
